@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  display: grid;
+  grid-gap: 20px;
+}
+.header {
+  width: 100%;
+  background: #5ba2ec;
+  height: 50px;
+  grid-column-start: 1;
+  grid-column-end: 12;
+}
+.aside {
+  height: 100%;
+  background: blue;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.main {
+  min-height: 700px;
+  background: orange;
+  grid-column-start: 3;
+  grid-column-end: 12;
+}
