@@ -12,7 +12,7 @@
 
 <body>
     <div class="container">
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Contact</a>
+        <a href="index.php">Home</a>
+        <a href="about.php">About</a>
+        <a href="contact.php">Contact</a>
         <hr>
