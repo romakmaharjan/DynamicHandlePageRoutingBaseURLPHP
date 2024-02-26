@@ -2,27 +2,107 @@ body {
   margin: 0;
   padding: 0;
 }
-.container {
+.container-main {
   width: 100%;
   display: grid;
   grid-gap: 20px;
 }
+.container {
+  width: 95%;
+  margin: auto;
+}
 .header {
   width: 100%;
   background: #5ba2ec;
-  height: 50px;
+  height: 70px;
   grid-column-start: 1;
   grid-column-end: 12;
+}
+.top-container {
+  width: 95%;
+  height: 70px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.comapny-name {
+  width: 20%;
+  height: 50px;
+}
+.comapny-name h1 {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.top-menu {
+  width: 75%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+.top-menu a {
+  padding: 10px;
+  background: red;
+  border: 1px solid red;
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+.header-container {
+  width: 80%;
+  margin: 20px auto;
 }
 .aside {
+  width: 20%;
   height: 100%;
-  background: blue;
+  background: #0c8bb9;
   grid-column-start: 1;
   grid-column-end: 3;
+  margin-top: -20px;
+  position: fixed;
+  top: 90px;
+}
+.aside ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.aside a {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.aside ul li {
+  height: 50px;
+  padding: 0 0 0 20px;
+  line-height: 50px;
+}
+.aside ul li:hover {
+  background: #02597a;
 }
 .main {
+  width: 100%;
   min-height: 700px;
-  background: orange;
   grid-column-start: 3;
   grid-column-end: 12;
+  background: gray;
+  background: rgb(224, 221, 221);
+  border-radius: 20px;
+}
+.profile {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.profile .image-box img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
 }

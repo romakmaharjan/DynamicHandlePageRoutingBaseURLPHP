@@ -9,9 +9,38 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="header"></div>
-        <div class="aside"></div>
+    <div class="container-main">
+
+        <div class="header">
+            <div class="top-container">
+                <div class="company-name">
+                    <h1>News Website</h1>
+                </div>
+                <div class="top-menu">
+                    <a href="">Logout</a>
+                </div>
+            </div>
+        </div>
+        <div class="aside">
+            <div class="header-container">
+                <div class="profile">
+                    <div class="image-box">
+                        <img src="https://picsum.photos/200" alt="lorem picsuim">
+                    </div>
+                    <div class="name-box">
+                        <h3>Admin</h3>
+                    </div>
+                </div>
+                <ul>
+                    <li><a href="">Dashboard</a></li>
+                    <li><a href="add-users.php">Add User</a></li>
+                    <li><a href="">Show Users</a></li>
+                    <li><a href="">Manage Category</a></li>
+                    <li><a href="">Add News</a></li>
+                    <li><a href="">Show News</a></li>
+                </ul>
+            </div>
+        </div>
         <div class="main">
 
             <?php
