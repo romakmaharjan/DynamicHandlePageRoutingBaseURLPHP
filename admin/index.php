@@ -32,7 +32,7 @@
                     </div>
                 </div>
                 <ul>
-                    <li><a href="">Dashboard</a></li>
+                    <li><a href="index.php">Dashboard</a></li>
                     <li><a href="add-users.php">Add User</a></li>
                     <li><a href="">Show Users</a></li>
                     <li><a href="">Manage Category</a></li>
