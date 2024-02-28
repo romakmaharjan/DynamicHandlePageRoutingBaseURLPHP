@@ -1,3 +1,9 @@
+<?php
+require_once("../config/helper.php");
+require_once("../connection/database.php");
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -32,8 +38,8 @@
                     </div>
                 </div>
                 <ul>
-                    <li><a href="index.php">Dashboard</a></li>
-                    <li><a href="add-users.php">Add User</a></li>
+                    <li><a href="<?=admin_url();?>">Dashboard</a></li>
+                    <li><a href="<?=admin_url(url: 'add-users')?>">Add User</a></li>
                     <li><a href="">Show Users</a></li>
                     <li><a href="">Manage Category</a></li>
                     <li><a href="">Add News</a></li>
